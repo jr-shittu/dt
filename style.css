@@ -129,7 +129,7 @@ button.active:before{
     background-color: rebeccapurple;
 }
 
-@media (max-height: 600px){
+@media (max-height: 1200px){
     .link{
         opacity: 0;
     }
