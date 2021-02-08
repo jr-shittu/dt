@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>error page</title>
+    <style>
+    body{
+        margin: 0;
+        padding: 0;
+        background: #fff;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lap{
+    width: 340px;
+    height: 200px;
+    background: #fff;
+    border: 16px solid rebeccapurple;
+    box-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+    overflow: hidden;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+
+}
+
+.lap p{
+    display: grid;
+    padding:55px;
+    font-family: monospace;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.lap:before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: -15%;
+    width: 125%;
+    height: 10px;
+    background: rebeccapurple;
+    border-top: 2px solid #ccc;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 10px;
+}
+
+.lap:after{
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    top: 6px;
+    border: azure;
+    left: 49%;
+    background: #000;
+    border-radius: 100%;
+}
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="lap">
+            <p>Page Under Construction</p>
+        </div>
+
+    </div>
+    
+</body>
+</html>

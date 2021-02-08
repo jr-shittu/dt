@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    margin: 0;
+    min-height: 100vh;
+    background: url(IMG_9131.JPG);
+    background-size: cover;
+    background-position: center center;
+}
+
+.logo{
+    position: fixed;
+    background: rebeccapurple;
+    top: 0;
+    left: 0;
+    margin: 12px;
+}
+
+.logo a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.text{
+    color: #fff;
+    background: rebeccapurple;
+    font-weight: bold;
+    font-size: 1.5em;
+} 
+
+.link{
+    position: absolute;
+    bottom: 260px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.link a{
+    background: #000;
+    color: #fff;
+    border: 2px solid grey;
+    text-decoration: none;
+    padding: 12px;
+    transition: .5s;
+}
+
+.link a:hover{
+    background: rebeccapurple;
+    color: #fff;
+}
+
+.icon{
+    position: fixed;
+    background-color: rebeccapurple;
+    color: #fff;
+    top: 20px;
+    right: 50px;
+    padding: 1rem;
+    border: none;
+}
+
+nav {
+    position: absolute;
+    background: rebeccapurple;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    padding: 2rem;
+    transform: translateX(100%);
+}
+
+nav.active{
+    transform: translateX(0);
+}
+
+nav ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+nav ul li{
+    padding: 1rem 0;
+    overflow: hidden;
+}
+
+nav a{
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 12px 0 0 0 ;
+    transition: .5s ease-in-out;
+}
+
+nav a:before{
+    content: attr(data-text);
+    position: absolute;
+    bottom: -100%;
+    background: #ff1493;
+    left: 0;
+}
+
+nav ul li:hover a{
+    transform: translateY(-100%);
+    background: #fff;
+    color: #000;
+}
+
+button.active{
+    transform: translateX(-100px)
+}
+
+button.active:before{
+    content: "\00D7";
+    font-size: 3em;
+    position: absolute;
+    top: 4px;
+    background-color: rebeccapurple;
+}
