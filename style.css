@@ -41,7 +41,7 @@ body{
     text-align: center;
     color: #fff;
     font-weight: bold;
-    bottom: 220px;
+    bottom: 250px;
 }
 
 .link a{
@@ -132,6 +132,4 @@ button.active:before{
     .link{
         opacity: 0;
     }
-    .icon{
-        position: absolute;
-}
+    
