@@ -12,6 +12,7 @@ body{
     background: url(IMG_9131.JPG);
     background-size: cover;
     background-position: center center;
+    overflow: hidden;
 }
 
 .logo{
