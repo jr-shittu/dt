@@ -12,6 +12,7 @@ body{
     background: url(IMG_9131.JPG);
     background-size: cover;
     background-position: center center;
+    overflow: hidden;
 }
 
 .logo{
@@ -36,11 +37,33 @@ body{
     font-size: 1.5em;
 } 
 
+.link{
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    bottom: 250px;
+}
+
+.link a{
+    background: #000;
+    color: #fff;
+    border: 2px solid #fff;
+    text-decoration: none;
+    padding: 6px;
+    transition: .5s;
+}
+
+.link a:hover{
+    background: rebeccapurple;
+    color: #fff;
+}
+
 .icon{
     position: fixed;
     background-color: rebeccapurple;
     color: #fff;
-    top: 20px;
+    top: 10px;
     right: 50px;
     padding: 1rem;
     border: none;
@@ -104,4 +127,11 @@ button.active:before{
     position: absolute;
     top: 4px;
     background-color: rebeccapurple;
+}
+
+@media (max-height: 600px){
+    .link{
+        bottom: 130px;
+        left: 100px;
+    }
 }
