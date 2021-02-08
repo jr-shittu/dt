@@ -130,6 +130,9 @@ button.active:before{
 }
 
 @media (max-height: 1200px){
+    body{
+        max-height: 100vh;
+    }
     .link{
         opacity: 0;
     }
