@@ -131,7 +131,7 @@ button.active:before{
 
 @media (max-height: 600px){
     .link{
-        bottom: 130px;
-        left: 100px;
+        bottom: 120px;
+        left: 120px;
     }
 }
