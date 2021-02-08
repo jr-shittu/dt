@@ -37,8 +37,8 @@ body{
 } 
 
 .link{
-    position: absolute;
-    bottom: 260px;
+    position: fixed;
+    bottom: 252px;
     text-align: center;
     color: #fff;
     font-weight: bold;
