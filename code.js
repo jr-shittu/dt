@@ -8,7 +8,7 @@ btn.addEventListener("click", function(){
 });
 
 
-const txt = 'Hi! am Tunde, I teach Robotics and Digital Making also Build websites';
+const txt = 'Hi! am Tunde, A technology education Graduate who loves to teach kids computing and digital making';
 
 let index = 0;
 
